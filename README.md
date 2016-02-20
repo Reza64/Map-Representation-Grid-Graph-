@@ -7,7 +7,7 @@ it contains: tiling or discretizing the input map, path planning (shortest path)
 sparse grid graph etc.
 
  The main function converts (discretizes) an input image (.png, .jpg, .bmp) into a grid
- graph (grid cells) in a shape of sparse matrix. Furthure, dijkstra algorithm is
+ graph (grid cells) in a shape of sparse matrix. Furthur, dijkstra algorithm is
  applied to find the shortest path between points.
  To consider the neighbor cells, 8 connectivity is used:
  
@@ -22,9 +22,10 @@ sparse grid graph etc.
  ** drate is the discretization ratio (cell or tile size), if we set this rate to 1, for each
  pixel in the image we will have a node in the graph.  
 
- ** showflag, is to show the output image 
- the output graph is saced as sparse matrix
- the nodes are presented in a 1D vector, thus a 'k' biy'l' matrix is shown by a vecotr with 'k*l' cells: [row 1, row 2,... row k]
+ ** showflag, is to show the output image
+ 
+ The output graph is shown as sparse matrix
+ the nodes are presented in a 1D vector, thus a 'k' by 'l' matrix is shown by a vector with 'k*l' cells: [row 1, row 2,... row k]
  
  the reference frame (0,0) in the image is considered in left-up
  
