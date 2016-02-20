@@ -9,7 +9,7 @@ sparse grid graph etc.
  The main function converts (discretizes) an input image (.png, .jpg, .bmp) into a grid
  graph (grid cells) in a shape of sparse matrix. Furthure, dijkstra algorithm is
  applied to find the shortest path between points.
- To consider the neighboir cellls, 8 connectivity is used:
+ To consider the neighbor cells, 8 connectivity is used:
  
 %------------------------------------------------
 
