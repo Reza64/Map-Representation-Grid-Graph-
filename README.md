@@ -10,7 +10,9 @@ sparse grid graph etc.
  graph (grid cells) in a shape of sparse matrix. Furthure, dijkstra algorithm is
  applied to find the shortest path between points.
  To consider the neighboir cellls, 8 connectivity is used:
+ 
 %------------------------------------------------
+
  Graph=CreateGraph (filename,drate,showflag)
 
  ** filename is the black-white input image file with size 'n*m', black
